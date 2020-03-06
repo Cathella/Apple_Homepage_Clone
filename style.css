@@ -1,7 +1,40 @@
 body,
-ul {
+ul,
+header {
   padding: 0;
   margin: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+header {
+  height: 86.8vh;
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  top: 10%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+  position: relative;
 }
 
 #promos {
@@ -14,7 +47,7 @@ ul {
 }
 
 #promos img {
-  height: 11.88em;
+  height: 11.8em;
   border: 1px solid #ffffff;
 }
 
@@ -22,7 +55,6 @@ footer {
   background: #ffffff;
   padding: 2% 0;
   font-size: .7em;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   color: #6e6e6e;
   line-height: 1.2;
 }
