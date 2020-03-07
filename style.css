@@ -24,24 +24,63 @@ nav {
   margin-top: 6%;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   justify-content: space-between;
-  background: #5e5e5e;
-  border-radius: 5px;
+  /* background: #5e5e5e; */
+  border-radius: 6px;
+  height: 2.5em;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 nav ul {
   display: flex;
-  width: 75%;
 }
 
 nav li {
   list-style: none;
-  display: inline-block;
-  padding: 1.5% 3.5%;
+  display: table-cell;
+  width: 7.8em;
+  text-align: center;
+  border-right: 1px solid #8b8b8b;
+  padding: 0;
+  height: 36px;
+  line-height: 34px;
+  font-size: .9em;
+  font-weight: 400;
 }
 
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ebeced;
+  text-shadow: 2px 1px 1px #353535;
+}
+
+nav i {
+  font-size: 1.5em;
+}
+
+nav form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form {
+  margin-right: 1.7%;
+}
+
+nav input {
+  width: 10em;
+  border-radius: 16px;
+  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+  border: none;
+  border-bottom: 1px solid #999;
+  height: 20px;
+  padding-left: 1em;
+  box-shadow: inset 0px 2px 2px #353535;
+}
+
+nav input:focus {
+  background: #ccc;
+  box-shadow: none;
 }
 
 h1,
@@ -80,6 +119,15 @@ h2 a,
 
 #watch a {
   color: #ffffff;
+}
+
+#watch a:hover {
+  text-decoration: underline;
+}
+
+#watch i {
+  margin-left: .5em;
+  font-size: 1em;
 }
 
 #promos {
