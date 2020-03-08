@@ -2,6 +2,8 @@
 
 > This is my first solo project of the HTML/CSS module at microverse.
 
+![screenshot](./Screenshot.jpg)
+
 This repository is setup for a microverse project to practice the use backgrounds and gradients. I was required to clone the actual page [here](https://web.archive.org/web/20140301004610/http://www.apple.com/).
 
 Checkout the live version of this project [here](https://raw.githack.com/Cathella/Apple_Homepage_Clone/feature-header/index.html).
