@@ -1,6 +1,7 @@
 body,
 ul,
 header,
+#content,
 h1,
 h2 {
   padding: 0;
@@ -8,7 +9,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
+#content {
   overflow: hidden;
   background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
   background-size: cover;
@@ -41,6 +42,10 @@ form,
   display: flex;
 }
 
+nav ul {
+  width: 85%;
+}
+
 nav li,
 h1,
 h2,
@@ -50,12 +55,20 @@ h2,
 
 nav li {
   display: table-cell;
-  width: 7.8em;
-  border-right: 1px solid #8b8b8b;
+  width: 13%;
+  border-width: 0 2px 0 1px;
+  border-style: solid;
+  list-style: none;
+  border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
   height: 36px;
+  cursor: pointer;
   line-height: 34px;
   font-size: 0.9em;
   font-weight: 400;
+}
+
+nav li:hover {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC') repeat-x 0 0, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D') repeat-y 100% 0, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC') repeat-y 0 0, rgba(0, 0, 0, 0.4);
 }
 
 nav a {
@@ -134,6 +147,10 @@ h2 a {
   color: #fff;
 }
 
+footer a:hover {
+  text-decoration: none;
+}
+
 #watch a {
   color: #fff;
   text-decoration: none;
@@ -164,13 +181,13 @@ h2 a {
   width: 100%;
 }
 
-nav li,
 #promos li {
+  width: 25%;
   list-style: none;
 }
 
 #promos img {
-  height: 11.8em;
+  width: 100%;
   border: 1px solid #fff;
 }
 
