@@ -4,7 +4,7 @@
 
 ![screenshot](./Screenshot.jpg)
 
-This repository is setup for a microverse project to practice the use backgrounds and gradients. I was required to clone the actual page [here](https://web.archive.org/web/20140301004610/http://www.apple.com/). I implemented the nav section as a list which contained all the navigation links. A background gradient was applied to the nav while the entire content-container was given a backgroung image.
+This repository is setup for a microverse project to practice the use backgrounds and gradients. I was required to clone the actual page [here](https://web.archive.org/web/20140301004610/http://www.apple.com/). I implemented the nav section as a list which contained all the navigation links. A background gradient was applied to the nav while the entire content-container at the top was given a background image.
 
 Checkout the live version of this project [here](https://raw.githack.com/Cathella/Apple_Homepage_Clone/feature-header/index.html).
 
